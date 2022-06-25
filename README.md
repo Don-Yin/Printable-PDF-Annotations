@@ -3,9 +3,12 @@
 A simple script written in fitz that adds highlight annotations to page margins.
 
 # How does it work?
-Say we have a PDF document with some highlighted text + annotations:
+Assume we have a PDF file with some highlighted text and annotations:
 ![](demo/annot.png)
 
-Original             |  Updated
+```python
+make_printable(Path("example.pdf"))
+```
+Original             |  Processed
 :-------------------------:|:-------------------------:
 ![](demo/example.png)  |  ![](demo/printable.png)

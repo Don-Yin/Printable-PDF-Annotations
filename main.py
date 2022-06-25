@@ -100,7 +100,14 @@ def make_printable_page_wise(page: fitz.Page):
 
 
 def make_printable(path_to_file: Path):
-    # ----open files with fitz----
+    """
+    Args:
+        path_to_file (Path): Path to the file to be made printable.
+    Raises:
+        Exception: If the file contains no annotation.
+    Save:
+        The file is saved in the same directory as the original file.
+    """
     doc = fitz.open(path_to_file)
     if not doc.has_annots():
         raise Exception("This PDF has no annotations.")
