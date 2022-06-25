@@ -7,6 +7,7 @@ Assume we have a PDF file with some highlighted text and annotations:
 
 ![](demo/annot.png)
 
+Run:
 ```python
 make_printable(Path("example.pdf"))
 ```
