@@ -9,6 +9,6 @@ Assume we have a PDF file with some highlighted text and annotations:
 ```python
 make_printable(Path("example.pdf"))
 ```
-Original             |  Processed
+Before             |  After
 :-------------------------:|:-------------------------:
 ![](demo/example.png)  |  ![](demo/printable.png)
