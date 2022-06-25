@@ -1,0 +1,18 @@
+## venv
+.venv
+.VSCodeCounter
+
+## data
+client/config.json
+
+## cache
+__pycache__
+
+## docs
+docs
+
+## system
+.DS_Store
+
+## script
+test.py
