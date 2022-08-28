@@ -11,7 +11,7 @@ Run:
 ```python
 make_printable(Path("example.pdf"))
 ```
-Before             |  After
+Input             |  Output
 :-------------------------:|:-------------------------:
 ![](demo/example.png)  |  ![](demo/printable.png)
 
